@@ -1,0 +1,24 @@
+/******************************************************************************
+
+                    programa con decisiones
+
+*******************************************************************************/
+using System;
+class Programa {
+  static void Main() {
+         //variables
+        bool sexoMasculino; 
+        //capturar informacion del usuario
+        Console.Write("Digite true si es hombre: ");
+         sexoMasculino = Convert.ToBoolean(Console.ReadLine());
+         //validacion
+         if (sexoMasculino == true)
+        {
+            Console.WriteLine("felicidades,es hombre");
+        }
+        else{
+            Console.WriteLine("Felicidades,es mujer"); 
+        }
+            Console.WriteLine("Finalizada la ejecucion");
+  }
+}
